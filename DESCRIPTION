@@ -1,0 +1,19 @@
+Package: assignment2q3
+Title: Simulate a queuing system to determine wait times for customers on a first-come-first-serve basis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Moksha",
+    family = "Shah",
+    role = c("aut", "cre"),
+    email = "moksha.shah1@students.mq.edu.au")
+Description: This package simulates a queuing system in a bank that determines the times that customers are standing in the queue.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
