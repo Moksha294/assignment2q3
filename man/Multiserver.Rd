@@ -7,17 +7,17 @@
 Multiserver(Arrivals, ServiceTimes, NumServers = 1)
 }
 \arguments{
-\item{Arrivals}{numeric; strictly positive for inter-arrival times}
+\item{Arrivals}{numeric; positive for the arrival time}
 
-\item{ServiceTimes}{numeric; strictly positive for service times}
+\item{ServiceTimes}{numeric; positive for the service time}
 
-\item{NumServers}{positive integer; number of server we have in the queue system}
+\item{NumServers}{a positive integer for the number of servers in the queuing system}
 }
 \value{
 A tibble:tibble() with information about the queuing system
 }
 \description{
-\code{Multiserver} is used to simulate a first come, first serve multi-server queuing system by sorting the inter-arrival and service times.
+\code{Multiserver} can simulate customer queuing times on a first-come-first-serve basis by determining their arrival and service times.
 }
 \examples{
 data(bank)
