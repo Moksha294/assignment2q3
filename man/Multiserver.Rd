@@ -21,5 +21,5 @@ A tibble:tibble() with information about the queuing system
 }
 \examples{
 data(bank)
-with(bank, Multiserver(arrival_time, service_time, 2))
+with(bank, Multiserver(arrival_time, service_time, 5))
 }

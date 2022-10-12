@@ -10,7 +10,7 @@
 #'
 #' @examples
 #' data(bank)
-#' with(bank, Multiserver(arrival_time, service_time, 2))
+#' with(bank, Multiserver(arrival_time, service_time, 5))
 Multiserver <- function(Arrivals, ServiceTimes, NumServers = 1) {
   if (any(Arrivals <= 0 | ServiceTimes <= 0) || NumServers <= 0){
     stop("Arrivals, ServiceTimes must be positive & NumServers must be positive" )

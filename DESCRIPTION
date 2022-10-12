@@ -19,3 +19,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     tibble
+URL: https://github.com/Moksha294/assignment2q3
+BugReports: https://github.com/Moksha294/assignment2q3/issues

@@ -5,9 +5,9 @@
 \alias{bank}
 \title{Bank Data}
 \format{
-A data frame with 100 observations on 2 variables
+A data frame with 100 customers and 2 variables
 \describe{
-\item{arrival_time}{Interval Arrival time for each customer}
+\item{arrival_time}{Customer Arrival time}
 \item{service_time}{Service time for each customer}
 }
 }
@@ -16,10 +16,9 @@ data(bank)
 }
 \description{
 This dataset simulates customer arrival and service times in a bank.
-The bank data frame has 100 variables
-on 2 variables
+The bank data frame measures the arrival and service times of 100 customers
 }
 \examples{
-## For examples see example(Multiserver)
+## see example(Multiserver)
 }
 \keyword{datasets}
